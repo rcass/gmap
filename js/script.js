@@ -5,7 +5,7 @@ function gMaps() {
   // setup global vars & config
   var jsonUrl = "./assets/locations.json";
   var styleUrl = "./assets/styles.json";
-  var imgMarkerUrl = '../../assets/img/cat.svg';
+  var imgMarkerUrl = './assets/img/cat.svg';
   var markers = [];
   var gmapStyle;
   var defaultZoom = 13;
