@@ -1,0 +1,20 @@
+// fix box sizing for all elements including pseudo elements
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+// responsive images
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// default link style
+a,
+a:visited {
+    color: $darkest;
+    text-decoration: none;
+}
+

@@ -1,0 +1,36 @@
+{
+    "extends": ["eslint:recommended", "google"],
+    "rules": {
+        "no-alert": 1,
+        "camelcase": 1,
+        "curly": 1,
+        "eqeqeq": 1,
+        "no-console": 1,
+        "guard-for-in": 1,
+        "no-empty": 1,
+        "no-param-reassign": 0,
+        "no-unused-vars": 1,
+        "space-before-function-paren": 0,
+        "no-var": 0,
+        "no-undef": 0,
+        "eol-last": 0,
+        "padded-blocks": 0,
+        "require-jsdoc": 0,
+        "no-trailing-s": 0,
+        "no-multiple-empty-lines": 0,
+        "one-var": 1,
+        "max-len": 0,
+        "quotes": [
+            1,
+            "single"
+        ]
+    },
+    "globals": {
+        "jQuery": false,
+        "$": false,
+        "_": false
+    },
+    "env": {
+        "browser": true
+    }
+}
